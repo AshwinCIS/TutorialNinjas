@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 
 import org.testng.annotations.*;
 
@@ -12,8 +11,10 @@ public class ResgistrationPageTest extends BaseClass{
 	
 	@Test
 	public void Verify_RegistrationPage() {
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(driver); 
 		RegisterPage rp = new RegisterPage(driver);
+		
+		
 		
 		//Navigating to registration page
 		hp.clickMyAccount();
