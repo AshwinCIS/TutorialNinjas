@@ -1,0 +1,22 @@
+2025-12-14 14:54:56 INFO  LoginPageTest:21 - Started Verify_LoginPage test case
+2025-12-14 14:59:29 INFO  LoginPageTest:23 - Started Verify_LoginPage test case
+2025-12-14 15:00:36 INFO  LoginPageTest:23 - Started Verify_LoginPage test case
+2025-12-14 15:14:26 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:18:56 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:19:29 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:19:53 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
+2025-12-14 15:19:53 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
+2025-12-14 15:20:07 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:21:17 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
+2025-12-14 15:21:18 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
+2025-12-14 15:21:30 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:23:45 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
+2025-12-14 15:23:45 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
+2025-12-14 15:23:47 INFO  ResgistrationPageTest:41 - Validating the confirmation message
+2025-12-14 15:24:00 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:24:52 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
+2025-12-14 15:25:26 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-14 15:28:25 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
+2025-12-14 15:28:25 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
+2025-12-14 15:28:27 INFO  ResgistrationPageTest:41 - Validating the confirmation message
+2025-12-14 15:28:43 INFO  LoginPageTest:20 - Started Verify_LoginPage test case

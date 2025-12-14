@@ -10,19 +10,19 @@
             <PatternLayout pattern="${log-pattern}"/>
         </Console>
 
-        <RollingFile name="File" fileName="${log-path}/automation.log"
-                     filePattern="${log-path}/automation-%d{MM-dd-yyyy}-%i.log.gz">
+        <RollingFile name="File" fileName="${log-path}/TutorialNinjas.log"
+                     filePattern="${log-path}/TutorialNinjas-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout pattern="${log-pattern}"/>
             <Policies>
                 <TimeBasedTriggeringPolicy/>
-                <SizeBasedTriggeringPolicy size="1MB"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
     </Appenders>
 
     <Loggers>
-        <Root level="INFO">
+        <Root level="Debug">
             <!--<AppenderRef ref="Console"/>-->
             <AppenderRef ref="File"/>
         </Root>

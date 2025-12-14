@@ -30,10 +30,19 @@ public class RegisterPage extends BasePage{
 	@FindBy(xpath="//input[@name=\"confirm\"]")
 	WebElement confirm;
 	
+	@FindBy(xpath="//input[@name=\"agree\"]")
+	WebElement agreecb;
+	
+	@FindBy(xpath="//input[contains(@class, 'btn btn-primary')]")
+	WebElement continuebtn;
+	
+	@FindBy(xpath="//h1[contains(text(), 'Your Account Has Been Created!')]")
+	WebElement confirmationmsg;
 	
 	//Action methods
 	
 	public void setFirstName(String fname) {
+		waitForVisibility(firstname);
 		firstname.sendKeys(fname);
 	}
 	
@@ -55,6 +64,21 @@ public class RegisterPage extends BasePage{
 	
 	public void setcPassword(String pwd) {
 		confirm.sendKeys(pwd);
+	}
+	
+	public void clickAgreeCB() {
+		if(!agreecb.isSelected()) {
+			agreecb.click();
+		}
+	}
+	
+	public void clickContinueBtn() {
+		continuebtn.click();
+	}
+	
+	public String getConfirmationMsg() {
+		waitForVisibility(confirmationmsg);
+		return confirmationmsg.getText();
 	}
 	
 
