@@ -1,22 +1,117 @@
-2025-12-14 14:54:56 INFO  LoginPageTest:21 - Started Verify_LoginPage test case
-2025-12-14 14:59:29 INFO  LoginPageTest:23 - Started Verify_LoginPage test case
-2025-12-14 15:00:36 INFO  LoginPageTest:23 - Started Verify_LoginPage test case
-2025-12-14 15:14:26 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:18:56 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:19:29 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:19:53 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
-2025-12-14 15:19:53 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
-2025-12-14 15:20:07 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:21:17 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
-2025-12-14 15:21:18 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
-2025-12-14 15:21:30 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:23:45 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
-2025-12-14 15:23:45 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
-2025-12-14 15:23:47 INFO  ResgistrationPageTest:41 - Validating the confirmation message
-2025-12-14 15:24:00 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:24:52 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
-2025-12-14 15:25:26 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
-2025-12-14 15:28:25 INFO  ResgistrationPageTest:23 - Started Verify_RegistrationPage test
-2025-12-14 15:28:25 INFO  ResgistrationPageTest:30 - Entering the details in the registartion page
-2025-12-14 15:28:27 INFO  ResgistrationPageTest:41 - Validating the confirmation message
-2025-12-14 15:28:43 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-16 15:36:29 INFO  LoginPageTest:20 - Started Verify_LoginPage test case
+2025-12-16 15:47:02 WARN  ZipPackage:196 - Error in zip file ./testData/null.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+2025-12-16 15:48:03 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 15:48:03 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 15:52:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 15:52:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 15:57:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 15:57:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 15:59:34 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 15:59:34 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:03:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:03:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:03:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:03:41 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:05:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:05:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:05:40 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:05:40 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:14:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:14:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:14:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:14:32 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:14:32 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:14:32 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:14:32 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:17:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:17:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:17:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:17:28 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:17:28 INFO  ResgistrationPageTest:36 - Entering the details in the registartion page
+2025-12-16 16:17:29 INFO  ResgistrationPageTest:60 - Validating the confirmation message
+2025-12-16 16:17:31 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:17:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:17:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:17:53 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:17:53 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:27:31 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:27:31 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:27:31 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:27:32 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:27:32 INFO  ResgistrationPageTest:36 - Entering the details in the registartion page
+2025-12-16 16:27:33 INFO  ResgistrationPageTest:60 - Validating the confirmation message
+2025-12-16 16:27:59 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:27:59 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:27:59 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:30:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:30:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:30:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:30:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:30:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:30:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:31:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:31:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:31:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:32:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:32:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:32:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:35:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:35:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:35:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:36:00 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:36:00 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:36:00 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:37:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:37:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:37:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:37:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:37:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:37:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:38:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:38:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:38:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:38:57 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:38:57 INFO  ResgistrationPageTest:36 - Entering the details in the registartion page
+2025-12-16 16:38:58 INFO  ResgistrationPageTest:60 - Validating the confirmation message
+2025-12-16 16:39:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:39:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:39:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:44:02 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:44:02 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:44:02 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:44:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:44:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:44:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:45:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:45:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:45:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:45:42 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:45:42 INFO  ResgistrationPageTest:36 - Entering the details in the registartion page
+2025-12-16 16:45:43 INFO  ResgistrationPageTest:60 - Validating the confirmation message
+2025-12-16 16:45:45 INFO  ResgistrationPageTest:29 - Started Verify_RegistrationPage test
+2025-12-16 16:45:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:45:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:45:57 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:45:57 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:45:58 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:56:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:56:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:56:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:56:46 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:56:48 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:58:24 INFO  ResgistrationPageTest:24 - Started Verify_RegistrationPage test
+2025-12-16 16:58:24 INFO  ResgistrationPageTest:31 - Entering the details in the registartion page
+2025-12-16 16:58:25 INFO  ResgistrationPageTest:45 - Validating the confirmation message
+2025-12-16 16:58:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 16:58:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 16:58:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 16:58:39 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 16:58:40 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 17:00:31 INFO  ResgistrationPageTest:24 - Started Verify_RegistrationPage test
+2025-12-16 17:00:31 INFO  ResgistrationPageTest:31 - Entering the details in the registartion page
+2025-12-16 17:00:32 INFO  ResgistrationPageTest:45 - Validating the confirmation message
+2025-12-16 17:00:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 17:00:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 17:00:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-12-16 17:00:45 INFO  LoginPageTest:26 - Started Verify_LoginPage test case
+2025-12-16 17:00:46 INFO  LoginPageTest:26 - Started Verify_LoginPage test case

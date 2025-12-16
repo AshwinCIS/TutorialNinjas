@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="safari browser test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="safari browser test(failed)">
     <parameter name="browser" value="safari"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.ResgistrationPageTest">
+      <class name="testCases.LoginPageTest">
         <methods>
           <include name="teardown"/>
-          <include name="Verify_RegistrationPage"/>
+          <include name="setValues"/>
           <include name="setup"/>
+          <include name="Verify_LoginPage" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testCases.ResgistrationPageTest -->
+      </class> <!-- testCases.LoginPageTest -->
     </classes>
   </test> <!-- safari browser test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -12,10 +12,11 @@ import testBase.BaseClass;
 
 public class ResgistrationPageTest extends BaseClass{
 	
-	@Test
+	
+	@Test(groups = "regression")
 	public void Verify_RegistrationPage() {
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		HomePage homepg = new HomePage(driver); 
 		RegisterPage regpg = new RegisterPage(driver);
 		
@@ -28,7 +29,9 @@ public class ResgistrationPageTest extends BaseClass{
 		homepg.clickRegister();
 		
 		logger.info("Entering the details in the registartion page");
+		
 		//Entering details in registration page form
+		
 		regpg.setFirstName(randomstring());
 		regpg.setLastName(randomstring());
 		regpg.setEmail(randomstring()+"@gmail.com");
@@ -37,6 +40,7 @@ public class ResgistrationPageTest extends BaseClass{
 		regpg.setcPassword("password");
 		regpg.clickAgreeCB();
 		regpg.clickContinueBtn();
+	
 	
 		logger.info("Validating the confirmation message");
 		String confmsg = regpg.getConfirmationMsg();

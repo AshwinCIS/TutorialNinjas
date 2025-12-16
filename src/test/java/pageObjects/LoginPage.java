@@ -19,6 +19,8 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//input[@class=\"btn btn-primary\"]")
 	WebElement lognbtn;
 	
+	@FindBy(xpath="//div[@class=\"list-group\"]/a[contains(text(),'Logout')]")
+	WebElement logout;
 	
 	public void setEmail(String email) {
 		waitForVisibility(txtemail);
@@ -32,6 +34,10 @@ public class LoginPage extends BasePage{
 	
 	public void clickLognbtn() {
 		lognbtn.click();
+	}
+	
+	public void clickLogoutbtn() {
+		logout.click();
 	}
 	
 

@@ -39,6 +39,7 @@ public class RegisterPage extends BasePage{
 	@FindBy(xpath="//h1[contains(text(), 'Your Account Has Been Created!')]")
 	WebElement confirmationmsg;
 	
+	
 	//Action methods
 	
 	public void setFirstName(String fname) {
@@ -80,6 +81,8 @@ public class RegisterPage extends BasePage{
 		waitForVisibility(confirmationmsg);
 		return confirmationmsg.getText();
 	}
+	
+	
 	
 
 }

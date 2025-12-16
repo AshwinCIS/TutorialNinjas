@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
@@ -10,8 +11,13 @@ import testBase.BaseClass;
 
 public class LoginPageTest  extends BaseClass{
 	
-	@Test
-	public void Verify_LoginPage(){
+	@BeforeTest(groups = "sanity")
+	public void setValues() {
+		filename = "LoginData";
+	}
+	
+	@Test(dataProvider = "sendData", groups = "sanity")
+	public void Verify_LoginPage(String username, String password){
 		
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
@@ -23,12 +29,20 @@ public class LoginPageTest  extends BaseClass{
 		hp.clickMyAccount();
 		hp.clickLogin();
 		
-		lp.setEmail(p.getProperty("email"));
-		lp.setPassword(p.getProperty("password"));
+		// retrieving the user name and password from the config.properties file
+//		lp.setEmail(p.getProperty("email"));   
+//		lp.setPassword(p.getProperty("password"));
+		
+		// Retrieving the data from excel
+		lp.setEmail(username);
+		lp.setPassword(password);
+		
 		lp.clickLognbtn();
 		
 		//ap.isMyAccountDisplayed();
 		Assert.assertTrue(true);
+		
+//		lp.clickLogoutbtn();
 		
 		}
 		catch(Exception e){

@@ -13,15 +13,19 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
+
+import utilities.ReadExcel;
 
 public class BaseClass {
 
     public WebDriver driver;
     public Logger logger;
     public Properties p;
-
-    @BeforeClass
+    public String filename;
+    
+    @BeforeClass(groups = {"sanity","regression"})
     @Parameters({"browser"})
     public void setup(String brwsr) throws IOException {
     	
@@ -41,15 +45,20 @@ public class BaseClass {
     		System.out.println("Invalid browser");
     	}
     	
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driver.get(p.getProperty("siteURL"));
     }
 
-    @AfterClass
+    @AfterClass(groups = {"sanity","regression"})
     public void teardown() {
         if (driver != null) {
             driver.quit();
         }
+    }
+    
+    @DataProvider
+    public String[][] sendData() throws IOException {
+    	return ReadExcel.readData(filename);
     }
 }
